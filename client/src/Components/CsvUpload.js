@@ -28,7 +28,6 @@ function CsvUpload(props) {
   };
 
   const handleReset = () => {
-    setData(null);
     axios
       .post("/api/reset")
       .then((res) => {
