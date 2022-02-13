@@ -13,11 +13,8 @@
 /.idea
 
 # assets
-/client/src/_metronic/_assets
-/client/public/media
 
 # production
-/client/build
 /server/_site
 /server/build
 /server/node_modules
